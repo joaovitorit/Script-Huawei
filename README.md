@@ -48,6 +48,45 @@ PONTA B
 [*SwitchA-Tunnel1] quit
 
 
+########## CONFIGURAR SNMP NO SWITCH HUAWEI S6720S-26Q-EI-24S-AC ##########
+
+######## Explicação de cada campo ########
+
+<huawei> system-view ----> Entrar em modo conf
+
+[huawei]snmp-agent ---> Entrar no modo de conf do snmp
+
+[huawei]snmp-agent community read cipher nome da community ---> configurar a community e criptografar o nome configurado
+
+[huawei]snmp-agent sys-info version v2c --> Configurar versão do protocolo
+
+[huawei]snmp-agent target-host trap address udp-domain 192.0.2.1 udp-port 161 params securityname cipher nome da community 
+
+--> Configurar qual ip tem acesso ao equipamento 
+
+[huawei]snmp-agent trap enable --> Habilitando as consultas ao equipamento
+
+
+######## Configuração dos campos acima explicados ########
+
+<huawei> system-view
+
+[huawei]snmp-agent
+
+[huawei]snmp-agent community read cipher nome da community
+
+[huawei]snmp-agent sys-info version v2c 
+
+[huawei]snmp-agent target-host trap address udp-domain 192.0.2.1 udp-port 161 params securityname cipher nome da community
+
+[huawei]snmp-agent trap enable
+
+
+
+
+
+
+
 
 
 
