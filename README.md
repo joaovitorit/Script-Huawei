@@ -81,6 +81,12 @@ PONTA B
 
 [huawei]snmp-agent trap enable
 
+######## Acesso padrão Switch huawei modelo: S5720-32X-EI-24S-AC via console-serial ########
+
+********** Usuário: admin Senha: admin@huawei
+
+
+
 
 
 
