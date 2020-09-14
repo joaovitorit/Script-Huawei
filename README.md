@@ -85,9 +85,9 @@ PONTA B
 
 ********** Usuário: admin Senha: admin@huawei
 
+######## Desabilitando auto negociação nas portas do Switch huawei modelo: S5720-32X-EI-24S-AC ########
 
-
-
+********** undo negotiation auto
 
 
 
