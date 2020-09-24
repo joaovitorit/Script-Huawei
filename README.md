@@ -89,6 +89,10 @@ PONTA B
 
 ********** undo negotiation auto
 
+######## Acesso padrão Switch huawei modelo: S6730-H24X6C via console-serial ########
+
+********** Usuário: admin Senha: admin@huawei.com 
+
 
 
 
