@@ -93,6 +93,13 @@ PONTA B
 
 ********** Usuário: admin Senha: admin@huawei.com 
 
+######## Resetar contadores da porta no switch huawei ########
+
+********** reset counters interface XGigabitEthernet 0/0/2
+
+######## Verificar os logs do Switch Huawei ########
+
+********** display logbuffer
 
 
 
