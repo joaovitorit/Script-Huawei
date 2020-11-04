@@ -105,6 +105,8 @@ PONTA B
 
 ********** undo portswitch
 
+********** interface vlanif númerodavlan
+
 
 
 
