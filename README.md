@@ -101,6 +101,10 @@ PONTA B
 
 ********** display logbuffer
 
+######## Configurar porta do Switch Huawei como porta l3 ########
+
+********** undo portswitch
+
 
 
 
