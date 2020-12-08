@@ -111,6 +111,9 @@ PONTA B
 
 ******** reset counters interface XGigabitEthernet 0/0/2
 
+######## Exibir histórico dos comandos que foi digitado no equipamento ########
+
+******** display history-command all-users
 
 
 
