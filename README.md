@@ -107,6 +107,10 @@ PONTA B
 
 ********** interface vlanif númerodavlan
 
+######## Limpar estatisticas de erro da interface no switch huawei S5720-32X-EI-24S-AC ########
+
+******** reset counters interface XGigabitEthernet 0/0/2
+
 
 
 
