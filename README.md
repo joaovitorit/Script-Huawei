@@ -66,6 +66,18 @@ PONTA B
 
 [huawei]snmp-agent trap enable --> Habilitando as consultas ao equipamento
 
+########## CONFIGURAR SNMP EM RULE NO SWITCH HUAWEI S6720S-26Q-EI-24S-AC ##########
+
+<HUAWEI> system-view
+
+[HUAWEI] acl 2000
+
+[HUAWEI-basic-2000] rule permit source 192.168.10.10 0
+
+[HUAWEI-basic-2000] quit
+
+[HUAWEI] snmp-agent acl 2000
+
 
 ######## Configuração dos campos acima explicados ########
 
