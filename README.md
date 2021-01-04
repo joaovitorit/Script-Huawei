@@ -127,6 +127,28 @@ PONTA B
 
 ******** display history-command all-users
 
+######## Configurar community em um peer bgp no HUAWEI S6720S-26Q-EI-24S-AC  ########
+
+******** Configurar a route-policy com os devidos parâmetros ********
+
+route-policy NOME-DA-POLICY permit node NÚMERO-DO-NODE
+
+description DESCRIPTION-DA-POLICY
+
+if-match ip-prefix NOME-DA-PREFIXLIST
+
+apply community XXXXX:YYYYY
+
+******** Na instância do BGP configurar os parâmetros *********
+
+peer X.X.X.X enable
+  
+peer X.X.X.X route-policy NOME-POLICY-IMPORT import
+
+peer X.X.X.X route-policy NOME-POLICY-EXPORT export
+
+peer X.X.X.X advertise-community
+
 
 
 
