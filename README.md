@@ -163,6 +163,26 @@ Link de referência do Fabricante
 
 https://support.huawei.com/enterprise/en/doc/EDOC0100533708?section=j00b
 
+########## Verificar se o protocolo ipv6 está ativo na interface ##########
+
+display ipv6 interface interface-type interface-number
+
+########## Transformar porta de switch em porta de router L3 ##########
+
+<huawei> system-view ----> Entrar em modo conf
+
+[huawei] interface interface-type interface-number
+
+[huawei] undo portswitch
+
+Obs. Se ao digitar o comando dê o erro de VCMP. Digite o segunte comando na porta: vcmp role server 
+
+
+
+
+
+
+
 
 
 
