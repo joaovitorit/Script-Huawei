@@ -163,6 +163,10 @@ Link de referência do Fabricante
 
 https://support.huawei.com/enterprise/en/doc/EDOC0100533708?section=j00b
 
+Ipv6 Huawei
+
+https://support.huawei.com/enterprise/br/doc/EDOC1100074755/e6ca48ed/basic-ipv6-configuration-commands#EN-US_CLIREF_0139428486
+
 ########## Verificar se o protocolo ipv6 está ativo na interface ##########
 
 display ipv6 interface interface-type interface-number
