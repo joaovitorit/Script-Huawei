@@ -149,6 +149,21 @@ peer X.X.X.X route-policy NOME-POLICY-EXPORT export
 
 peer X.X.X.X advertise-community
 
+########## Habilitar ipv6 nainterface como undo portswitch no switch HUAWEI S6720S-26Q-EI-24S-AC ##########
+
+<huawei> system-view ----> Entrar em modo conf
+
+[huawei] ipv6
+
+[huawei]interface interface-type interface-number
+
+[huawei] ipv6 enable
+
+Link de referência do Fabricante
+
+https://support.huawei.com/enterprise/en/doc/EDOC0100533708?section=j00b
+
+
 
 
 
