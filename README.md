@@ -181,6 +181,19 @@ display ipv6 interface interface-type interface-number
 
 Obs. Se ao digitar o comando dê o erro de VCMP. Digite o segunte comando na porta: vcmp role server 
 
+########## Habilitar para que o roteador/switch não faça checagem do as-path (Utilizado principalmente em IX (Internet exchange)) ##########
+
+<huawei> system-view ----> Entrar em modo conf
+
+[huawei] bgp número-do-asn
+
+[huawei] undo chck-first-as
+
+Referência do Fabricante
+
+https://support.huawei.com/enterprise/en/doc/EDOC1100116542/15b843f2/check-first-as
+
+
 
 
 
