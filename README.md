@@ -195,7 +195,7 @@ https://support.huawei.com/enterprise/en/doc/EDOC1100116542/15b843f2/check-first
 
 ########## Desabilitar tela inicial de troca de senha Huawei ##########
 
-# Disable the device from prompting users to change initial passwords.
+# Disable the device from prompting users to change initial passwords.#
 
 <Huawei> system-view
 
