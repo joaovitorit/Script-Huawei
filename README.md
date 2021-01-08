@@ -193,6 +193,23 @@ Referência do Fabricante
 
 https://support.huawei.com/enterprise/en/doc/EDOC1100116542/15b843f2/check-first-as
 
+########## Desabilitar tela inicial de troca de senha Huawei ##########
+
+# Disable the device from prompting users to change initial passwords.
+
+<Huawei> system-view
+
+[Huawei] aaa
+
+[Huawei-aaa] local-aaa-user password policy administrator
+
+[Huawei-aaa-lupp-admin]undo password alert original
+
+Refereência do fabricante.
+
+https://support.huawei.com/enterprise/en/knowledge/EKB1100014967
+
+
 
 
 
