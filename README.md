@@ -208,6 +208,16 @@ Refereência do fabricante.
 https://support.huawei.com/enterprise/en/knowledge/EKB1100014967
 
 
+########## Verificar clientes conectados no radius ##########
+
+display access-user authen-method radius
+
+########## Verificar cliente especifico no radius com detalhes ##########
+
+display access-user authen-method radius username nomedousuáriopppoe verbose
+
+
+
 
 
 
