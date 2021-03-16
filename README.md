@@ -217,6 +217,55 @@ display access-user authen-method radius
 display access-user authen-method radius username nomedousuáriopppoe verbose
 
 
+## Lista quantidade de clientes no caixa "slot"
+
+display pppoe statis slot " "
+
+## Nat 
+
+display nat user-information slot " " verbose
+
+display nat user-information slot " " verbose | count 
+
+display nat session table 
+
+display nat session table verbose
+
+display nat memory-usage session 
+
+display nat memory-usage user-information
+
+## CPU 
+
+display health
+
+display memory-usage
+
+# Comandos pppoe
+
+
+# MOSTRA TODOS USUARIOS CONECTADOS, MAC, USER, IP, INTERFACE
+dis access-user interface GigabitEthernet 0/3/11.2000 
+
+
+dis access-user interface Eth-Trunk12.4093 summary 
+
+
+display pppoe statistics interface Eth-Trunk12.4093
+
+
+
+display aaa online-fail-record
+
+
+# derrubar:
+aaa
+    cut access-user username allison71 all
+#
+
+# limpar lista de falhas:
+run reset aaa online-fail-record
+
 
 
 
